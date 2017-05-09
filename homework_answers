@@ -1,0 +1,16 @@
+puts "How much is the bill?"
+bill = gets
+tip = (bill.to_f * 0.2)
+total =  tip.to_f + bill.to_f
+
+puts "The bill is $#{"%.2f" % total}"
+
+
+
+
+
+def say_hello(name)
+  puts "Why hello there #{name}"
+end
+
+ say_hello("Jack!")
